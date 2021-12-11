@@ -1,0 +1,260 @@
+@media (max-width: 1200px){
+    .text{
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        background-color: rgba(26, 6, 95, 0.692);
+        top: -0px;
+    }
+    .text h1{
+        width: 35%;
+        font-size: 35px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .text p{
+        margin-top: 40px;
+        margin-left: 120px;
+        font-size: 13px;
+    }
+    .text button{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .text .solid{
+        width: 11%;
+        height: 8px;
+        background-color: #FCB72B;
+        margin-top: -150px;
+    }
+    .rasm img{
+        width: 30%;
+        height: 90px;
+        margin-left: 470px;
+        margin-top: -15px;
+    }
+    .rasm_img{
+        margin-top: -3px;
+    }
+    .rasm_img img{
+        width: 4%;
+        height: 100px;
+        margin-left: 700px;
+        margin-top: -60px;
+    }
+    .quti{
+        height: 80px;
+    }
+}
+
+@media (max-width: 900px){
+    header{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        text-align: center;
+    }
+    header img{
+        width: 100%;
+        height: 500px;
+    }
+    .text{
+        width: 100%;
+        height: 500px;
+        text-align: center;
+    }
+    .text h1{
+        width: 100%;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    .text p{
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .text button{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .text .solid{
+        display: none;
+    }
+    .rasm img{
+        width: 30%;
+        height: 90px;
+        margin-left: -475px;
+        margin-top: 30px;
+    }
+    main{
+        flex-direction: column;
+    }
+    .box{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .quti{
+        width: 50%;
+        margin-left: 90px;
+    }
+    .quti:nth-child(2){
+        margin-left: -0px;
+    }
+    .quti img{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .box_text h3{
+        margin: 15px 50px;
+    }
+    .box_text p{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 830px){
+    .rasm img{
+        margin-left: -400px;
+        margin-right: -70px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 700px){
+    element nav ul{
+        font-size: 12px;
+    }
+    element nav ul li{
+        margin-left: 15px;
+    }
+    .rasm img{
+        margin-left: -400px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    header{
+        height: 480px;
+    }
+    header img{
+        height: 460px;
+    }
+    .quti{
+        width: 80%;
+        margin-left: 50px;
+    }
+    .quti:nth-child(2){
+        margin-left: -0px;
+    }
+    .quti img{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .box_text h3{
+        margin: 15px 50px;
+    }
+    .box_text p{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 520px){
+    element button{
+        display: none;
+    }
+    element nav ul{
+        display: none;
+        /* width: 100%;
+        height: 50px;
+        transform: translateX(-180%);
+        background-color: rgba(220, 20, 60, 0.774);
+        transition: 1.5s ease; */
+    }
+    /* .active{
+        transform: translateX(0);
+        opacity: 1;
+
+    } */
+    element .fa-bars{
+        display: block; 
+    }
+    header{
+        height: 400px;
+    }
+    header img{
+        height: 420px;
+    }
+    .text{
+        height: 420px;
+    }
+    .text p{
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    .rasm img{
+        display: none;
+    }
+    main{
+        margin-top: 500px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .quti{
+        width: 25%;
+        height: 70px;
+        margin-bottom: -20px;
+    }
+    .quti img{
+        width: 36%;
+        height: 45px;
+    }
+    .box_text{
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    header{
+        height: 48px;
+    }
+    header img{
+        height: 500px;
+    }
+    .text{
+        height: 500px;
+    }
+    .text p{
+        margin-top: 8px;
+    }
+    .text h1{
+        font-size: 28px;
+        margin-left: -0;
+    }
+    .text button{
+        width: 30%;
+        height: 50px;
+        margin-left: -3%;
+    }
+    .img img{
+        display: block;
+    }
+}
+
+@media (max-width: 340px){
+    .text h1{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+    .img img{
+        display: block;
+    }
+}
